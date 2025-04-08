@@ -1,0 +1,41 @@
+.code-container {
+    background-color: #002B2F;
+    color: #94FF4A;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+        
+#glosary {
+    background-color: #002B2F;
+    color: #94FF4A;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    margin-right: 700px;
+}
+
+.subtopics{
+    margin-right: 50px;
+    list-style-type: none;
+}
+
+#references{
+    background-color: #002B2F;
+    color: #94FF4A;
+    text-decoration: underline;
+}
+
+.no-decoration{
+    color: #94FF4A;
+    text-decoration: none;
+}
+
+.no-decoration-and-color{
+    text-decoration: none;
+}
+
+
+

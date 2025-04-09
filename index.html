@@ -22,6 +22,10 @@
                     <li class="subtopics"><a class="no-decoration" href="#1.3">1.3 help()</a></li>
                     <li class="subtopics"><a class="no-decoration" href="#1.4">1.4 library()</a></li>
                     <li class="subtopics"><a class="no-decoration" href="#1.5">1.5 summary()</a></li>
+                    <li class="subtopics"><a class="no-decoration" href="#1.6">1.6 ls()</a></li>
+                    <li class="subtopics"><a class="no-decoration" href="#1.7">1.7 list.dirs()</a></li>
+                    <li class="subtopics"><a class="no-decoration" href="#1.8">1.8 list.files()</a></li>
+
                 </ul>
             <li>Tipos de datos</li>
                 <ul>
@@ -29,6 +33,7 @@
                     <li class="subtopics"><a class="no-decoration" href="#2.2">2.2 Factor</a></li>
                     <li class="subtopics"><a class="no-decoration" href="#2.3">2.3 Matriz</a></li>
                     <li class="subtopics"><a class="no-decoration" href="#2.4">2.4 DataFrame</a></li>
+                    <li class="subtopics"><a class="no-decoration" href="#2.5">2.5 Listas</a></li>
                 </ul>
             <li>Matemáticos</li>
             <ul>
@@ -38,6 +43,8 @@
                 <li class="subtopics"><a class="no-decoration" href="#3.4">3.4 max()</a></li>
                 <li class="subtopics"><a class="no-decoration" href="#3.5">3.5 min()</a></li>
                 <li class="subtopics"><a class="no-decoration" href="#3.6">3.6 quantile()</a></li>
+                <li class="subtopics"><a class="no-decoration" href="#3.7">3.7 var()</a></li>
+
             </ul>
             <li>Manipulación de datos</li>
             <ul>
@@ -45,6 +52,12 @@
                 <li class="subtopics"><a class="no-decoration" href="#4.2">4.2 rbind()</a></li>
                 <li class="subtopics"><a class="no-decoration" href="#4.3">4.3 paste()</a></li>
                 <li class="subtopics"><a class="no-decoration" href="#4.4">4.4 substr()</a></li>
+                <li class="subtopics"><a class="no-decoration" href="#4.5">4.5 colnames()</a></li>
+                <li class="subtopics"><a class="no-decoration" href="#4.6">4.6 rownames()</a></li>
+                <li class="subtopics"><a class="no-decoration" href="#4.7">4.7 read.csv()</a></li>
+                <li class="subtopics"><a class="no-decoration" href="#4.8">4.8 write.csv()</a></li>
+                <li class="subtopics"><a class="no-decoration" href="#4.9">4.9 subset()</a></li>
+
             </ul>
             <li>Manejo de nulos</li>
             <ul>    
@@ -57,7 +70,23 @@
                 <li class="subtopics"><a class="no-decoration" href="#6.2">6.2 group_by()</a></li>
                 <li class="subtopics"><a class="no-decoration" href="#6.3">6.2 select()</a></li>
                 <li class="subtopics"><a class="no-decoration" href="#6.4">6.4 mutate()</a></li>
+                <li class="subtopics"><a class="no-decoration" href="#6.5">6.5 summarise()</a></li>
+                <li class="subtopics"><a class="no-decoration" href="#6.6">6.6 arrange()</a></li>
+                <li class="subtopics"><a class="no-decoration" href="#6.7">6.7 glimpse()</a></li>
             </ul>
+            <li>ggplot2</li>
+            <ul>
+                <li>7.1 Una Variable</li>
+                <li class="subtopics"><a class="no-decoration" href="#7.1.1">7.1.1 geom_area()</a></li>
+                <li class="subtopics"><a class="no-decoration" href="#7.1.2">7.1.2 geom_histogram()</a></li>
+                <li class="subtopics"><a class="no-decoration" href="#7.1.3">7.1.3 geom_bar()</a></li>
+                <li>7.1 Dos Variables</li>
+                <li class="subtopics"><a class="no-decoration" href="#7.2.1">7.2.1 geom_point()</a></li>
+                <li class="subtopics"><a class="no-decoration" href="#7.2.2">7.2.2 geom_quantile()</a></li>
+            </ul>
+            <li>ggtree</li>
+            <li class="subtopics"><a class="no-decoration" href="#CU">Consejos Útiles</a></li>
+            <li class="subtopics"><a class="no-decoration" href="#RB">Referencias Bibliográficas</a></li>
         </ol>
     </div>
 
@@ -569,14 +598,14 @@
 <img src="wwwroot/imgs/masa_libras_starwars.png" alt="Lista de personajes en Star Wars con masa en libras">
 <small><b>Lista de personajes en Star Wars con masa en libras</b></small>
         </pre>
-    <h2>Consejos utiles <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h2>
+    <h2 id="CU">Consejos utiles <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h2>
     <ol>
         <li>Se puede usar Ctrl + L en la Terminal de RStudio para limpiarlo</li>
         <li>Se puede comentar varias lineas de un script de RStudio al seleccionar las lineas y presionar con Ctrl + Shift + C</li>
         <li>Se puede ejecutar una linea de un script seleccionado la linea y presionando Alt + Enter</li>
         <li>Se puede insertar el simbolo de asignación (&lt-) presionando Alt + -</li>
     </ol>
-    <h2>Referencias Bibliográficas <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h2>
+    <h2 id="RB">Referencias Bibliográficas <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h2>
     <ol>
         <li><a href="https://www.w3schools.com/r/" target="_blank">https://www.w3schools.com/r/</a></li>
         <li><a href="https://dplyr.tidyverse.org/" target="_blank">https://dplyr.tidyverse.org/</a></li>

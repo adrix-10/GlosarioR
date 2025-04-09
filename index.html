@@ -25,7 +25,6 @@
                     <li class="subtopics"><a class="no-decoration" href="#1.6">1.6 ls()</a></li>
                     <li class="subtopics"><a class="no-decoration" href="#1.7">1.7 list.dirs()</a></li>
                     <li class="subtopics"><a class="no-decoration" href="#1.8">1.8 list.files()</a></li>
-
                 </ul>
             <li>Tipos de datos</li>
                 <ul>
@@ -91,10 +90,10 @@
     </div>
 
     <div>
-        <h2>Comandos Básicos  <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h2> 
+        <h2>Comandos Básicos <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h2> 
 
 
-        <h3 id="1.1">1.1 getwd() <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h3>
+        <h3 id="1.1">1.1 getwd() </h3>
         <p>
             Este comando muestra el directorio/ruta de trabajo actual (working directory).
             En este directorio se guardaran los archivos que se van a utilizar en el proyecto como archivos planos (csv), Excel, u otras fuentes de datos.
@@ -121,7 +120,7 @@
     [1] "C:/Users/adrix/Documents/R"
             </code></pre>
         </div>
-        <h3 id="1.3">1.3 help() <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h3>
+        <h3 id="1.3">1.3 help() </h3>
         <p>Sirve para conseguir ayuda sobre una función de R. 
         Es muy útil cuando uno está empezando a usar la herramienta o cuando simplemente no se recuerda cómo se puede usar una función.
         </p>
@@ -149,7 +148,7 @@
     library(dplyr)
             </code></pre>
         </div>
-        <h3 id="1.5">1.5 summary() <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h3>
+        <h3 id="1.5">1.5 summary() </h3>
         <p>
         Al usar este comando, podemos solicitar un resumen de la información de una variable sin importar su tipo ya sea un vector, matriz, dataframe o cualquier otro tipo de dato.
         Otra función que es similar a summary() es la función str().
@@ -185,9 +184,36 @@
             </code></pre>
         </div>
 
+        <h3 id="1.6">1.6 ls() <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h3>
+        <p>
+            Comando que sirve para poder mostrar los objetos de R presentes en memoria en un momento dado.
+        </p>
+        <div class="code-container">
+            <pre><code>
+                
+            </code></pre>
+        </div>
+        <h3 id="1.7">1.7 list.dirs()</h3>
+        <p>
+        Muestra una lista de todos los directorios (carpetas) del working directory activo.
+        </p>
+        <div class="code-container">
+            <pre><code>
+                                    
+            </code></pre>
+        </div>
+        <h3 id="1.8">1.8 list.files() <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h3>
+        <p>
+        Muestra una lista de todos los archivos del working directory activo.
+        </p>
+        <div class="code-container">
+            <pre><code>
+                        
+            </code></pre>
+        </div>
         <h2>Estructuras de datos <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h2>
 
-        <h3 id="2.1">2.1 Vector <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h3>
+        <h3 id="2.1">2.1 Vector</h3>
         <p>
         Es una estructura de R en la cual se almacenan múltiples valores de un solo tipo de dato. Por ejemplo, si desea guardar números solo se puede guardar números. Para definir el contenido de una función, se usa el comando c() y adentro de los paréntesis se ingresan los datos separados por una coma ','.  
         </p>
@@ -232,7 +258,7 @@
 
             </code></pre>
         </div>
-        <h3 id="2.3">2.3 Matriz <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h3>
+        <h3 id="2.3">2.3 Matriz</h3>
         <p>
             La matriz es una estructura de datos de dos dimensiones, 
             es decir tiene filas y columnas. Al igual que los vectores, solo pueden contener un solo tipo de dato a la vez. La cantidad de filas y columnas se pueden decidir a conveniencia.
@@ -284,7 +310,7 @@
 
         <h2>Matematicos <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h2>
 
-        <h3 id="3.1">3.1 mean() <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h3>
+        <h3 id="3.1">3.1 mean()</h3>
         <p>La función mean() sirve para poder calcular la media de una lista de datos numéricos contenidos en una variable como un
         vector. No se puede observar la operación completa solo el resultado, pero lo que hace es realizar la fórmula matemática
         de sumar todos los elementos de la lista y dividirlos entre el número de elementos.</p>
@@ -317,7 +343,7 @@
     [1] 31.32291
             </code></pre>
         </div>
-        <h3 id="3.3">3.3 length() <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h3>
+        <h3 id="3.3">3.3 length()</h3>
         <p>Indica la longitud de una variable de múltiples valores. Por ejemplo, si se quiere saber cuantos valores contiene un
         vector se puede usar esta función.</p>
         <div class="code-container">
@@ -348,7 +374,7 @@
     [1] 200
             </code></pre>
         </div>
-        <h3 id="3.5">3.5 min() <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h3>
+        <h3 id="3.5">3.5 min()</h3>
         <p>Indica cuál es el valor mínimo en un conjunto numérico. Puede ser en un vector, matriz o dataframe.</p>
         <div class="code-container">
             <pre><code>
@@ -387,13 +413,12 @@
 
         <h2>Manipulación de datos <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h2>
 
-        <h3 id="4.1">4.1 cbind() <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h3>
+        <h3 id="4.1">4.1 cbind()</h3>
         <p>Sirve para unir columnas en un conjunto de datos. Puede ser útil para unir nuevos datos a dataframes o matrices por
         ejemplo.</p>
         <div class="code-container">
             <pre><code>
     # Se crea el dataframe
-    datos_antropometricos <- data.frame (
     Nombre = c('Adrián', 'Pedro', 'Julia'),
     Peso = c(71.1, 91.0, 73.5),
     Altura = c(1.73, 1.80, 1.67),
@@ -401,10 +426,10 @@
     )
 
     # Se crea una nueva variable con datos
-    Grasa_visceral <- c(7,7,6)
+    Grasa_visceral &lt- c(7,7,6)
 
     # Se agregan los datos de la gras visceral al dataframe
-    datos_antropometricos <- cbind(datos_antropometricos,Grasa_visceral)
+    datos_antropometricos &lt- cbind(datos_antropometricos,Grasa_visceral)
 
     # Se muestra el dataframe con los datos de grasa visceral
     datos_antropometricos
@@ -420,21 +445,21 @@
         <div class="code-container">
             <pre><code>
     # Se crea el dataframe
-    datos_antropometricos2 <- data.frame (
+    datos_antropometricos2 &lt- data.frame (
   Peso = c(71.1, 91.0, 73.5),
   Altura = c(1.73, 1.80, 1.67),
   BMI = c(19.0, 22.5, 20.3)
     )
 
     # Se crean los datos por agregar con cbind()
-    datos_maria <- c(58.6, 1.51, 23.1)
+    datos_maria &lt- c(58.6, 1.51, 23.1)
 
     # Se agregan los datos de María al dataframe
-    datos_antropometricos2 <- rbind(datos_antropometricos2,datos_maria)
+    datos_antropometricos2 &lt- rbind(datos_antropometricos2,datos_maria)
 
     # Se definen los nombres como títulos de filas
-    Nombres <-  c('Adrián', 'Pedro', 'Julia','María')
-    rownames(datos_antropometricos2) <- Nombres
+    Nombres &lt-  c('Adrián', 'Pedro', 'Julia','María')
+    rownames(datos_antropometricos2) &lt- Nombres
 
     # Se muestra el dataframe con los datos de María
     datos_antropometricos2
@@ -445,18 +470,18 @@
     # María  58.6   1.51    23.1
             </code></pre>
         </div>
-        <h3 id="4.3">4.3 paste() <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h3>
+        <h3 id="4.3">4.3 paste()</h3>
         <p>Se puede usar para unir dos o más cadenas de caracteres. Solo funciona con valores tipo carácter. Puede ser de ayuda
         para unir partes de un todo como nombres o direcciones por ejemplo.</p>
         <div class="code-container">
             <pre><code>
     # Se crean los datos de una dirreción
-    canton <- "Montes de Oca,"
-    distrito <- "San Pedro."
-    detalle_direccion <-  "Del Mall San Pedro, 500m norte y 150 al sur"
+    canton &lt- "Montes de Oca,"
+    distrito &lt- "San Pedro."
+    detalle_direccion &lt-  "Del Mall San Pedro, 500m norte y 150 al sur"
 
     # Se une los datos para crear una direccion completa
-    direcion_completa <- paste(canton, distrito, detalle_direccion)
+    direcion_completa &lt- paste(canton, distrito, detalle_direccion)
 
     # Se muestra la direccion completa
     direcion_completa
@@ -479,9 +504,9 @@
     [1] "San Pedro"
             </code></pre>
         </div>
-        <h2>Manejo de nulos</h2>
+        <h2>Manejo de nulos <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h2>
 
-        <h3 id="5.1">5.1 na.omit() <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h3>
+        <h3 id="5.1">5.1 na.omit()</h3>
         <p>Descarta los valores NA, es decir indeterminados, presentes en un conjunto de datos. Sirve para imputar (dar un valor)
         datos indeterminados tomando como referencia los datos conocidos, o cualquier operación para excluir los datos nulos.</p>
         <div class="code-container">
@@ -519,7 +544,7 @@
         </div>
         <h2>Dplyr (libreria externa de R) <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h2>
 
-        <h3 id="6.1">6.1 filter() <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h3>
+        <h3 id="6.1">6.1 filter()</h3>
         <p>Filtra los datos de un dataframe según las condiciones que deseemos preservar de los datos. NOTA: si se encuentra un
         valor NA en alguno de los datos dentro de las condiciones se eliminara toda la fila donde se encuentra el dato.</p>
         <div class="code-container">
@@ -555,7 +580,7 @@
 <small><b>Lista de humanos en Star Wars</b></small>
         </pre>
 
-        <h3 id="6.3">6.3 select() <a class="no-decoration-and-color fs-5" href="#GL">Regresar a Inicio</a></h3>
+        <h3 id="6.3">6.3 select()</h3>
         <p>Selecciona un conjunto de datos específicos. Es similar a filter(), pero la diferencia es que es más general, mientras
         filter() es más específico.</p>
         <div class="code-container">
